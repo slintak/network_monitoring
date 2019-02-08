@@ -17,6 +17,7 @@ services:
       - "8092:8092/udp"
       - "8094:8094"
       - "8125:8125/udp"
+      - "6514:514/udp"
     links:
       - influxdb
 
