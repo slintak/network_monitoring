@@ -6,8 +6,9 @@ This is simple network monitoring I use in my home network.
 My network is quite simple -- one router Mikrotik RB2011 with IP address
 `10.0.0.1` and one WiFi AP Mikrotik RBmAPL with IP address `10.0.0.2`.
 
-Note: if you have diferent network settings, you should change SNMP inputs in
-`./etc/telegraf.conf` file.
+Note: if you have diferent network settings, you should change `extra_hosts`
+setting in docker-compose file. Or you can completely change SNMP configuration
+in `./etc/telegraf.conf` file.
 
 Mikrotik setup
 --------------
