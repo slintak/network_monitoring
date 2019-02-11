@@ -18,6 +18,9 @@ services:
       - "8094:8094"
       - "8125:8125/udp"
       - "6514:514/udp"
+    extra_hosts:
+      - "router:10.0.0.1"
+      - "wifi:10.0.0.2"
     links:
       - influxdb
 
