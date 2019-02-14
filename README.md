@@ -88,7 +88,7 @@ Grafana setup
 -------------
 
 Main Grafana dashboard can be found in `dashboards/network.json`. To use this
-dashboard you need to import it in your Grafanafill three variables:
+dashboard you need to import it in your Grafana and set three variables:
 
 - `Main Wifi AP Hostname` -- hostname of your WiFi acccess point.
 - `Main Router Hostaname` -- hostname of your main router.
