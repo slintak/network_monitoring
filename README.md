@@ -87,4 +87,14 @@ sudo systemctl restart rsyslog
 Grafana setup
 -------------
 
+Main Grafana dashboard can be found in `dashboards/network.json`. To use this
+dashboard you need to import it in your Grafanafill three variables:
+
+- `Main Wifi AP Hostname` -- hostname of your WiFi acccess point.
+- `Main Router Hostaname` -- hostname of your main router.
+- `Name of WAN Interface` -- name of WAN interface on main router.
+
+Setting custom hostname on Mikrotik devices can be done by command
+`/system identity set name="your-hostname"`.
+
 ![Grafana Dashboard](imgs/grafana_dashboard.png?raw=true "Grafana Dashboard")
